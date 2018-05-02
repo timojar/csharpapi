@@ -1,0 +1,45 @@
+.App { background-color: #DDF0D9;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #BD7C5B;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#stamps{float: left;
+  margin-left: 200px
+}
+#newbird{float: left;
+margin-left: 130px}
+
+.bolding{font-weight: bold;
+ }
+
+ body{ background-color: #DDF0D9;}
+
+.birds{float:left;
+margin-left: 100px;
+
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
