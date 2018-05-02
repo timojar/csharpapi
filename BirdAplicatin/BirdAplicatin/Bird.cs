@@ -5,11 +5,13 @@ using System.Web;
 
 namespace BirdAplicatin
 {
-    public class Bird
+
+    public class Bird 
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string [] sightins { get; set; }
+        public List<DateTime> sightings { get; set; }
+
 
     }
 }
